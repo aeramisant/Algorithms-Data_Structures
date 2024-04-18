@@ -397,12 +397,12 @@ myLinkedList
   .insertNode(9, 9);
 // myLinkedList.searchNode(6);
 // myLinkedList.getNode(myLinkedList.getLastIndex());
-myLinkedList.updateNode(5, 10);
+// myLinkedList.updateNode(5, 10);
 // myLinkedList.removeFirstNode();
 // myLinkedList.removeLastNode();
 // myLinkedList.removeNode(2);
-myLinkedList.printList();
+// myLinkedList.printList();
 // myLinkedList.deleteAllNodes();
 // myLinkedList.printList();
-myLinkedList.removeDuplicates().printList().getLastIndex();
-myLinkedList.getMiddleNode().reverseList().printList();
+// myLinkedList.removeDuplicates().printList().getLastIndex();
+// myLinkedList.getMiddleNode().reverseList().printList();
