@@ -1,3 +1,4 @@
+import { LinkedList } from './Linked List.js';
 //sorting an array without using JS native sort method
 const myBubbleSort = (array) => {
   //loop the first time through the array
@@ -296,3 +297,46 @@ const containsDuplicate = (array) => {
 };
 
 // console.log(containsDuplicate([1, 2, 3, 4, 5]));
+// class myLinkedList extends LinkedList {
+//   constructor() {
+//     super();
+//   }
+//   //method to partition a linked list around a value x,
+//   //such that all nodes less than x come before all nodes greater than or equal to x.
+//   partitionList(value) {
+//     //check if the list is empty
+//     if (this.length < 1) {
+//       console.log('List is empty!');
+//       return;
+//     }
+//     const newNode = this.createNode(value);
+//     let currentNode = this.head;
+//   }
+// }
+// const myList = new LinkedList();
+// myList
+//   .appendNode(1)
+//   .appendNode(200)
+//   .appendNode(3)
+//   .appendNode(60)
+//   .appendNode(57)
+//   .prependNode(0)
+//   .prependNode(-1)
+//   .appendNode(6);
+// const partitionList = (list, value) => {
+//   let current = list.head;
+//   const newList = new LinkedList();
+//   newList.appendNode(value);
+//   while (current) {
+//     if (current.value >= value) {
+//       newList.appendNode(current.value);
+//     } else {
+//       newList.prependNode(current.value);
+//     }
+//     current = current.next;
+//   }
+//   console.log('newList', newList);
+//   return newList;
+// };
+// const partitionedList = partitionList(myList, 40);
+// partitionedList.printList();

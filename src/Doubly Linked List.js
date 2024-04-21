@@ -182,16 +182,16 @@ class DoublyLinkedList {
   }
 }
 const doublyLinkedList = new DoublyLinkedList();
-doublyLinkedList
-  .addFirstNode(1)
-  .append(2)
-  .append(3)
-  .prepend(0)
-  .searchByValue(1)
-  .insertNode(2, 4)
-  .removeFirstNode()
-  .removeLastNode()
-  .removeNode(1);
-// .getByIndex(2)
-// .setNodeValue(1, 4);
-doublyLinkedList.printList().reversePrintList();
+// doublyLinkedList
+//   .addFirstNode(1)
+//   .append(2)
+//   .append(3)
+//   .prepend(0)
+//   .searchByValue(1)
+//   .insertNode(2, 4)
+//   .removeFirstNode()
+//   .removeLastNode()
+//   .removeNode(1);
+// // .getByIndex(2)
+// // .setNodeValue(1, 4);
+// doublyLinkedList.printList().reversePrintList();

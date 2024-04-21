@@ -139,7 +139,7 @@ class Node {
   }
 }
 //create a LinkedList class
-class LinkedList {
+export class LinkedList {
   constructor() {
     this.head = null;
     this.tail = null;
