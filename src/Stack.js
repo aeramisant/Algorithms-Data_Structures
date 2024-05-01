@@ -71,7 +71,6 @@ class Node {
 class StackLinkedList {
   constructor() {
     this.top = null;
-    this.bottom = null;
     this.length = 0;
   }
   //method to check if the stack is empty
@@ -83,11 +82,9 @@ class StackLinkedList {
     const node = new Node(value);
     if (this.isEmpty()) {
       this.top = node;
-      this.bottom = node;
     } else {
-      const holdingPointer = this.top;
+      node.next = this.top;
       this.top = node;
-      this.top.next = holdingPointer;
     }
     this.length++;
     return this;
@@ -135,7 +132,6 @@ class StackLinkedList {
       return this;
     }
     this.top = null;
-    this.bottom = null;
     this.length = 0;
     console.log('Stack deleted successfully');
 
