@@ -8,4 +8,6 @@
 // import './src/Stack.js';
 // import './src/Queue.js';
 // import './src/Recursion.js';
-import './src/Tree/Binary Tree.js';
+// import './src/Tree/Binary Tree.js';
+// import "./src/Tree/Binary Heap.js";
+import './src/Sort Algorithms/index.js';
