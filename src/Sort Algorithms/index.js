@@ -3,5 +3,5 @@
 // export * from './insertionSort.js';
 // export * from './bucketSort.js';
 // export * from './mergeSort.js';
-export * from './quickSort.js';
-// export * from './heapSort.js';
+// export * from './quickSort.js';
+export * from './heapSort.js';

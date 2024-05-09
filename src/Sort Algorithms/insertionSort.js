@@ -1,4 +1,4 @@
-import randomizer from './randomizer.js';
+import { randomizer } from './helpers.js';
 //Insertion Sort
 //Insertion Sort is a simple sorting algorithm that works by building a sorted list one element at a time.
 //It takes one element from the list and inserts it into the correct position in the sorted list.

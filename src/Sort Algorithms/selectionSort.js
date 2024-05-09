@@ -1,4 +1,4 @@
-import randomizer from './randomizer.js';
+import { randomizer } from './helpers.js';
 
 //
 //Selection Sort

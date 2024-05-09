@@ -1,4 +1,4 @@
-import randomizer from './randomizer.js';
+import { randomizer } from './helpers.js';
 //Merge Sort
 //Merge Sort is a divide and conquer algorithm that divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves.
 //The merge() function is used for merging two halves.

@@ -1,4 +1,4 @@
-import randomizer from './randomizer.js';
+import { randomizer } from './helpers.js';
 //Bubble Sort
 //Bubble Sort is a simple sorting algorithm that works by repeatedly stepping through the list to be sorted,
 //compares each pair of adjacent items and swaps them if they are in the wrong order.

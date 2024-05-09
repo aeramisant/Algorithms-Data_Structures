@@ -1,4 +1,4 @@
-import randomizer from './randomizer.js';
+import { randomizer } from './helpers.js';
 import insertionSort from './insertionSort.js';
 //Bucket Sort
 //Bucket Sort is a sorting algorithm that works by distributing the elements of an array into a number of buckets.
