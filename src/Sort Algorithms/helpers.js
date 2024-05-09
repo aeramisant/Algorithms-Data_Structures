@@ -19,7 +19,7 @@ function shuffle(array) {
 }
 
 export const randomizer = (number) => {
-  return shuffle(Array.from({ length: number }, (_, i) => i));
+  return shuffle(Array.from({ length: number }, (_, i) => i + 1));
 };
 
 export const heapify = (arr, n, i) => {

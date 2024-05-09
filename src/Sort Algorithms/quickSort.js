@@ -34,10 +34,11 @@ const quickSortHelper = (arr, left, right) => {
     quickSortHelper(arr, left, pivotIndex - 1);
     quickSortHelper(arr, pivotIndex + 1, right);
   }
+  //   console.log(arr);
   return arr;
 };
 
-const quickSort = (arr) => {
-  return quickSortHelper(arr, 0, arr.length - 1);
+export const quickSort = (arr) => {
+  return quickSortHelper(arr, 0, arr.length);
 };
-console.log(quickSort(randomizer(100)));
+// console.log(quickSort(randomizer(100)));

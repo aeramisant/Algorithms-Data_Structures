@@ -10,4 +10,5 @@
 // import './src/Recursion.js';
 // import './src/Tree/Binary Tree.js';
 // import "./src/Tree/Binary Heap.js";
-import './src/Sort Algorithms/index.js';
+// import './src/Sort Algorithms/index.js';
+import './src/searchingAlgorithms.js';
